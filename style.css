@@ -1,0 +1,78 @@
+/* This is our CSS page */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hide{
+    display: none;
+}
+
+.car, .enemy{
+    width: 50px;
+    height: 80px;
+    background: url("images/car.jpg") no-repeat center center;
+    background-size: contain;
+    background-color: blue;
+    position: absolute;
+    bottom: 120px;
+}
+
+.lines{
+    width: 10px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 195px;
+}
+
+.window{
+    width: 100vw;
+    height: 100vh;
+    background: url("images/bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.scores{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.425);
+    position: absolute;
+    right: 77px;
+    top: 88px;
+    height: 26vh;
+    width: 24vw;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+    color: hsl(22, 100%, 50%);
+}
+
+.popUp{
+    border: 2px solid rgb(0, 4, 255);
+    background-color: rgba(4, 0, 255, 0.911);
+    color: #ffffff;
+    border-radius: 6px;
+    width: 25vw;
+    cursor: pointer;
+    padding: 20px 26px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    z-index: 7;
+}
+
+.area{
+    background-color: #2d3436;
+    margin-right: 180px;
+    background-size: cover;
+    height: 100vh;
+    width: 400px;
+    position: absolute;
+    left: 29%;
+    overflow: hidden;
+}
